@@ -68,6 +68,6 @@ public class VOXILandingPage {
         WebElement address = obj.findElement(By.xpath("(//select[@id='select'])[1]"));
         Select selAddress = new Select(address);
         selAddress.selectByIndex(3);
-        obj.quit();
+        obj.close();
     }
 }
