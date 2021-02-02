@@ -4,7 +4,6 @@
 /.txt
 /.html
 .idea
-.gitignore
 .classpath
 MavenProject.iml
 /target/surefire-reports/testng-reports.js
